@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "image-carousel",
+      "settings": {
+        "heading_title": "Image Slider Titile",
+        "slider_content": "<p>Image slieder content section<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

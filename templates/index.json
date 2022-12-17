@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "large"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-bg.png",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "New ARRIVALS",
+        "collection": "all",
+        "products_to_show": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bitcoin-gold.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "read more",
+            "link": "#"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "test",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16504379249d0717ba": {
+      "type": "accessories",
+      "disabled": true,
+      "blocks": {
+        "35e6ca53-13d7-438b-a325-f3244ac3b072": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_11.png",
+            "heading": "Heading Title",
+            "list_link": "<p><a href=\"#\" title=\"#\">Beginner<\/a><br\/><a href=\"#\" title=\"#\">intermediate<\/a><br\/><a href=\"#\" title=\"#\">advanced<\/a><\/p>",
+            "button_name": "View All",
+            "link_button": "#"
+          }
+        },
+        "1607809c-6fdc-479a-94e9-58ca0d37fdf8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_12.png",
+            "heading": "Pistols<span> color<\/span>",
+            "list_link": "<p><a href=\"#\" title=\"#\">Gas Blowback (GBB)<\/a><br\/><a href=\"#\" title=\"#\">Non Blowback (NGBB)<\/a><br\/><a href=\"#\" title=\"#\">Revolvers<\/a><\/p>",
+            "button_name": "View all",
+            "link_button": "#"
+          }
+        },
+        "03156ba2-f1f9-400f-985f-ab6a322001a3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_13.png",
+            "heading": "Accessories",
+            "list_link": "<p><a href=\"#\" title=\"#\">Optics<\/a><br\/><a href=\"#\" title=\"#\">Flashlight\/weapon lights<\/a><br\/><a href=\"#\" title=\"#\">external parts<\/a><\/p>",
+            "button_name": "View All",
+            "link_button": "#"
+          }
+        },
+        "da684a18-106a-4e03-8db0-49463fe74e59": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_14.png",
+            "heading": "Tactical Gear",
+            "list_link": "<p><a href=\"#\" title=\"#\">BDU<\/a><br\/><a href=\"#\" title=\"#\">Plate carriers \/ Vests<\/a><br\/><a href=\"#\" title=\"#\">Helmets<\/a><\/p>",
+            "button_name": "View All",
+            "link_button": "#"
+          }
+        }
+      },
+      "block_order": [
+        "35e6ca53-13d7-438b-a325-f3244ac3b072",
+        "1607809c-6fdc-479a-94e9-58ca0d37fdf8",
+        "03156ba2-f1f9-400f-985f-ab6a322001a3",
+        "da684a18-106a-4e03-8db0-49463fe74e59"
+      ],
+      "settings": {
+        "heading": "Title"
+      }
+    },
+    "1649599496909ba66f": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog",
+        "sub-heading": "posts",
+        "blog": "news",
+        "post_limit": 2,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1650522772b32da8e1": {
+      "type": "accessories",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "collection": {
+      "type": "custom-collection-slider",
+      "settings": {
+        "heading_title": "sada<p>asdf<\/p>erwewr"
+      }
+    },
+    "44abcffc-24cc-4b98-a624-812a569040f5": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14416594632813__44abcffc-24cc-4b98-a624-812a569040f5-167111551894b6d6c0-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_11.png",
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--14416594632813__44abcffc-24cc-4b98-a624-812a569040f5-167111551894b6d6c0-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_12.png",
+            "heading": "Image slide",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14416594632813__44abcffc-24cc-4b98-a624-812a569040f5-167111551894b6d6c0-0",
+        "template--14416594632813__44abcffc-24cc-4b98-a624-812a569040f5-167111551894b6d6c0-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text",
+    "featured_collection",
+    "multicolumn",
+    "16504379249d0717ba",
+    "1649599496909ba66f",
+    "1650522772b32da8e1",
+    "collection",
+    "44abcffc-24cc-4b98-a624-812a569040f5"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "current": {
+    "colors_accent_1": "#343436",
+    "type_header_font": "poppins_n4",
+    "type_body_font": "poppins_n4",
+    "page_width": 1400,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo_width": 90,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "TERMS AND POLICIES",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "STORE INFO",
+              "menu": "store-info"
+            }
+          },
+          "232f018e-ad7b-49de-a073-619d3daf572a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "CUSTOMER SERVICE",
+              "menu": "customer-service"
+            }
+          },
+          "e9447da8-c7c6-45c3-a8c7-4c3ae452adee": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_heading_section": "Newsletter Sign-Up"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "232f018e-ad7b-49de-a073-619d3daf572a",
+          "e9447da8-c7c6-45c3-a8c7-4c3ae452adee"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "newsletter_enable": true,
+          "margin_top": 24,
+          "padding_top": 48,
+          "padding_bottom": 48
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {}
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {}
+      }
+    },
+    "content_for_index": []
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_width": 90
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "link_list",
+              "settings": {
+                "heading": "Info"
+              }
+            },
+            "footer-2": {
+              "type": "text",
+              "settings": {
+                "heading": "Our mission"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "margin_top": 48
+          }
+        },
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {}
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
+
+<h5>{{section.settings.heading_title | escape }}</h5>
+<p>{{ section.settings.slider_content }}</p>
+
+{% schema %}
+  {
+    "name": "Custom Image Carousel",
+    "settings": [
+      {
+        "type": "text",
+         "label": "Heading",
+         "id": "heading_title"
+      },
+      {
+        "type": "richtext",
+        "label": "Paragraph Content",
+        "id": "slider_content"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Image Carousel"
+      }
+    ]
+  }
+{% endschema %}
+

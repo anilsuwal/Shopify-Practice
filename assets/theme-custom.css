@@ -1,0 +1,15 @@
+.field__button_submit {
+  display: block;
+  width: 100%;
+  background-color: #ffffff !important;
+  padding: 1.2rem;
+  font-size: 18px;
+}
+
+.field__button_submit:hover {
+  cursor: pointer;
+}
+
+.footer-copyright-title.grid {
+  justify-content: center;
+}

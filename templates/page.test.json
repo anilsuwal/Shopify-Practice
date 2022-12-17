@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "16504591930af2e3a4": {
+      "type": "accessories",
+      "blocks": {
+        "d575526f-f74c-40e2-becd-278c9aea0811": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forest-hill-location-banner.png",
+            "link_url": ""
+          }
+        },
+        "a953f3cf-45cc-43ff-b5b7-9a3192534594": {
+          "type": "text",
+          "settings": {
+            "accessories_text": "tetdfdfsasdfg",
+            "text_link_url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "d575526f-f74c-40e2-becd-278c9aea0811",
+        "a953f3cf-45cc-43ff-b5b7-9a3192534594"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "16504591930af2e3a4"
+  ]
+}
