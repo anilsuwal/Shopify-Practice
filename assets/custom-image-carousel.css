@@ -3,6 +3,16 @@ slideshow-component .slideshow.banner {
 }
 .banner__media {
     position: relative;
+    min-height: 350px;
+    overflow: hidden;
+}
+.banner__media img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: contain;
+    height: 100%;
 }
 .slideshow__slide {
     flex-direction: row-reverse;
