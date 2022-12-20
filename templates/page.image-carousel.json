@@ -49,11 +49,30 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "9c2565c7-4d53-49a0-93af-c99c5c3fc9d3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/third-party-apps-content-image.png",
+            "heading": "Lady reading books",
+            "heading_size": "medium",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Read More",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--14621480616045__4a48e2bc-4785-4938-9871-529486161606-1671454550be0208cc-0",
-        "template--14621480616045__4a48e2bc-4785-4938-9871-529486161606-1671454550be0208cc-1"
+        "template--14621480616045__4a48e2bc-4785-4938-9871-529486161606-1671454550be0208cc-1",
+        "9c2565c7-4d53-49a0-93af-c99c5c3fc9d3"
       ],
       "settings": {
         "slide_height": "medium",
