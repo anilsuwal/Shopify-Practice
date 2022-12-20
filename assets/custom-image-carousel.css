@@ -1,7 +1,9 @@
 slideshow-component .custom-image-carousel-section {
     width: 50%;
-    margin: auto;
+}
+slideshow-component .slideshow.banner {
     min-height: initial;
+    margin: auto;
 }
 .banner__media {
     position: relative;
