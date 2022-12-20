@@ -10,4 +10,7 @@
         height: initial;
         padding: 0;
     }
+    .banner__media {
+        height: initial;
+    }
 }
