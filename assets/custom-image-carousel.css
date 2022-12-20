@@ -1,3 +1,6 @@
+slideshow-component .slideshow.banner {
+    min-height: initial;
+}
 .banner__media {
     position: relative;
 }
