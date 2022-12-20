@@ -1,8 +1,6 @@
-.custom-image-carousel-section {
+slideshow-component .custom-image-carousel-section {
     width: 50%;
     margin: auto;
-}
-slideshow-component .slideshow.banner {
     min-height: initial;
 }
 .banner__media {
