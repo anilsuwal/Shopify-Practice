@@ -1,3 +1,7 @@
+slideshow-component {
+    width: 50%;
+    margin: auto;
+}
 slideshow-component .slideshow.banner {
     min-height: initial;
 }
