@@ -3,7 +3,6 @@
     "main": {
       "type": "image-carousel",
       "settings": {
-        "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -36,7 +35,7 @@
         "template--14621480616045__4a48e2bc-4785-4938-9871-529486161606-1671454550be0208cc-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/forest-hill-location-banner.png",
+            "image": "shopify:\/\/shop_images\/Layer_14.png",
             "heading": "Image slide",
             "heading_size": "medium",
             "subheading": "Tell your brand's story through images",
@@ -57,7 +56,6 @@
         "template--14621480616045__4a48e2bc-4785-4938-9871-529486161606-1671454550be0208cc-1"
       ],
       "settings": {
-        "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": false,
