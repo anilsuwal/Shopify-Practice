@@ -1,6 +1,10 @@
 .banner__media {
     position: relative;
 }
+.slideshow__slide {
+    flex-direction: row-reverse;
+    align-items: center;
+}
 .slideshow__text-wrapper.banner__content {
     padding: 0;
 }
