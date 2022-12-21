@@ -11,8 +11,10 @@
     }
   }
 {%- endstyle -%}
+<div class="custom-video {% unless section.settings.full_width %} page-width{% endunless %}">
 <div class="section-{{ section.id }}-padding">
     <h2>{{section.settings.heading_title | escape }}</h2>
+</div>
 </div>
 {% schema %}
 {
