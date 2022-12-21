@@ -11,7 +11,9 @@
     }
   }
 {%- endstyle -%}
-<h5>{{section.settings.heading_title | escape }}</h5>
+<div class="section-{{ section.id }}-padding">
+    <h5>{{section.settings.heading_title | escape }}</h5>
+</div>
 {% schema %}
 {
 "name": "Custom Video Player",
