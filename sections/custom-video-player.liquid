@@ -13,7 +13,11 @@
 {%- endstyle -%}
 <div class="custom-video {% unless section.settings.full_width %} page-width{% endunless %}">
 <div class="section-{{ section.id }}-padding">
-    <h2>{{section.settings.heading_title | escape }}</h2>
+    {% unless section.settings.heading == "" %}
+        <div class="title-wrapper title-wrapper--no-top-margin">
+          <h2 class="title">{{section.settings.heading_title | escape }}</h2>
+        </div>
+      {% endunless %}
 </div>
 </div>
 {% schema %}
