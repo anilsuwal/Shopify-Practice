@@ -87,6 +87,8 @@
       "type": "custom-video-player",
       "settings": {
         "heading_title": "Heading Title Section",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=jmDEfR3WTjE",
+        "full_width": false,
         "padding_top": 32,
         "padding_bottom": 20
       }
