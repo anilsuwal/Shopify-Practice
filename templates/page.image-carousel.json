@@ -86,7 +86,7 @@
     "0eb30579-dbaa-48cd-b52f-1ca57c427b15": {
       "type": "custom-video-player",
       "settings": {
-        "heading_title": "Heading Title Section",
+        "heading_title": "Heading Title Sections",
         "video_url": "https:\/\/www.youtube.com\/watch?v=jmDEfR3WTjE",
         "full_width": false,
         "padding_top": 32,
