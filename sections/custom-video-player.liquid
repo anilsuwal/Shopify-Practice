@@ -19,7 +19,7 @@
           </div>
         {% endunless %}
   </div>
-  <div class="video-player-frame video-section__media deferred-media">
+  <div class="video-player-frame video-section__media deferred-media global-media-settings" data-media-id="{{ section.settings.video_url.id }}">
     <template>
       {%- if section.settings.video_url.type == 'youtube' -%}
         <iframe src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen"></iframe>
