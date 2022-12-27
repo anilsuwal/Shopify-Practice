@@ -49,7 +49,7 @@
         {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
       {%- endif -%}
        {% endcomment %}
-      {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+      {% comment %} {{ 'collection-2' | placeholder_svg_tag: 'placeholder-svg placeholder' }} {% endcomment %}
       <span class="deferred-media__poster-button motion-reduce">
         {%- render 'icon-play' -%}
       </span>
