@@ -1,16 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "image-carousel",
-      "settings": {
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "4a48e2bc-4785-4938-9871-529486161606": {
       "type": "image-carousel",
       "blocks": {
@@ -85,7 +74,6 @@
     }
   },
   "order": [
-    "main",
     "4a48e2bc-4785-4938-9871-529486161606"
   ]
 }
