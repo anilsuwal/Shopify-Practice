@@ -82,34 +82,10 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "0eb30579-dbaa-48cd-b52f-1ca57c427b15": {
-      "type": "custom-video-player",
-      "settings": {
-        "heading_title": "Heading Title Sections",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=jmDEfR3WTjE",
-        "full_width": false,
-        "padding_top": 32,
-        "padding_bottom": 20
-      }
-    },
-    "74e6b780-fd68-4a46-aaf2-e8e0c65ee580": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "4a48e2bc-4785-4938-9871-529486161606",
-    "0eb30579-dbaa-48cd-b52f-1ca57c427b15",
-    "74e6b780-fd68-4a46-aaf2-e8e0c65ee580"
+    "4a48e2bc-4785-4938-9871-529486161606"
   ]
 }
