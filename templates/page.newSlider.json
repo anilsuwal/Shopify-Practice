@@ -3,7 +3,8 @@
     "main": {
       "type": "custom-collection-slider",
       "settings": {
-        "heading_title": "Normal Heading"
+        "heading_title": "Normal Heading",
+        "collection": "latest-product"
       }
     }
   },
