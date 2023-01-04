@@ -1,3 +1,6 @@
 .product-slider .card__inner.color-background-2 {
     background: transparent;
 }
+.product-slider .card__inner.color-background-2 .card__media{
+    width: 100%;
+}
