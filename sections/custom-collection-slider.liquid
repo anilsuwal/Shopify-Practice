@@ -36,7 +36,6 @@
     {%- for product in section.settings.collection.products -%}
       {% if product.available %}
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="item">
-          <h4>1</h4>
           {% render 'card-product',
             card_product: product
           %}
