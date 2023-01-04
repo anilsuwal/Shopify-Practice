@@ -5,7 +5,7 @@
       "settings": {
         "heading_title": "Normal Heading",
         "collection": "latest-product",
-        "image_ratio": "portrait"
+        "image_ratio": "adapt"
       }
     }
   },
