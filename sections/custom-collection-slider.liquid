@@ -53,6 +53,7 @@
 <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"></script>
 <script type="text/javascript">
+  $(document).ready(function(){
 $("#carousel").owlCarousel({
   autoplay: true,
   lazyLoad: true,
@@ -77,6 +78,7 @@ $("#carousel").owlCarousel({
       items: 5
     }
   }
+});
 });
 </script>
 {% schema %}
