@@ -54,23 +54,31 @@
 <noscript>{{ 'jquery.mousewheel.min.js' | asset_url | script_tag }}</noscript>
 <noscript>{{ 'owl.carousel.min.js' | asset_url | script_tag }}</noscript> {% endcomment %}
 <script>
-jquery('.owl-carousel').owlCarousel({
-  stagePadding: 50,
-  loop:true,
-  margin:10,
-  nav:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:3
-      },
-      1000:{
-          items:5
-      }
+jQuery("#carousel").owlCarousel({
+  autoplay: true,
+  lazyLoad: true,
+  loop: true,
+  center:true,
+  dots: false,
+  responsiveClass: true,
+  autoHeight: true,
+  autoplayTimeout: 20000,
+  smartSpeed: 2000,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+	  
+	576: {
+      items: 3
+    },
+
+    1024: {
+      items: 3
+    }
   }
-})
+});
 </script>
 {% schema %}
 {
