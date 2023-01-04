@@ -33,18 +33,25 @@
 <div class="page-width">
   <h5>{{ section.settings.heading_title | escape }}</h5>
   <div id="carousel" class="owl-carousel">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
+    <ul>
+    {%- for product in section.settings.collection.products -%}
+      {% if product.available %}
+        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item item">
+          <h4>1</h4>
+          {% comment %} {% render 'card-product',
+            card_product: product,
+            media_aspect_ratio: section.settings.image_ratio,
+            show_secondary_image: section.settings.show_secondary_image,
+            show_vendor: section.settings.show_vendor,
+            show_rating: section.settings.show_rating,
+            show_quick_add: section.settings.enable_quick_add,
+            section_id: section.id
+          %} {% endcomment %}
+        </li>
+      {% endif %}
+     
+    {%- endfor -%}
+  </ul>
   </div>
 </div>
 
