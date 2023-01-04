@@ -32,8 +32,7 @@
 
 <div class="page-width">
   <h5>{{ section.settings.heading_title | escape }}</h5>
-  <div id="carousel" class="owl-carousel">
-    <ul>
+    <ul id="carousel" class="owl-carousel">
     {%- for product in section.settings.collection.products -%}
       {% if product.available %}
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item item">
@@ -52,7 +51,6 @@
      
     {%- endfor -%}
   </ul>
-  </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
