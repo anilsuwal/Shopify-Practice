@@ -39,7 +39,7 @@
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="item" style="list-style:none;">
           {% render 'card-product',
             card_product: product,
-            media_aspect_ratio: "1:1",
+            media_aspect_ratio: square,
             section_id: section.id
           %}
         </li>
