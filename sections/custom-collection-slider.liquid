@@ -47,23 +47,6 @@
   <div class="item"><h4>11</h4></div>
   <div class="item"><h4>12</h4></div>
 </div>
-{% schema %}
-{
-"name": "Custom Product Slider",
-"settings": [
-    {
-       "type": "text",
-       "label": "Heading",
-       "id": "heading_title"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Custom Product Slider"
-    }
-  ]
-}
-{% endschema %}
 
 <noscript>{{ 'jquery.min.js' | asset_url | script_tag }}</noscript>
 <noscript>{{ 'jquery.mousewheel.min.js' | asset_url | script_tag }}</noscript>
@@ -87,3 +70,21 @@ jquery('.owl-carousel').owlCarousel({
   }
 })
 </script>
+{% schema %}
+{
+"name": "Custom Product Slider",
+"settings": [
+    {
+       "type": "text",
+       "label": "Heading",
+       "id": "heading_title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Product Slider"
+    }
+  ]
+}
+{% endschema %}
+
