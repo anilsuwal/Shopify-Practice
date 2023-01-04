@@ -66,6 +66,7 @@ jQuery("#carousel").owlCarousel({
   autoplayTimeout: 20000,
   smartSpeed: 2000,
   nav: true,
+  navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
   responsive: {
     0: {
       items: 1
@@ -80,8 +81,6 @@ jQuery("#carousel").owlCarousel({
     }
   }
 });
-jQuery( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-jQuery( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 });
 </script>
 {% schema %}
