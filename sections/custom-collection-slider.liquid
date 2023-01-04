@@ -53,6 +53,7 @@
 {% comment %} <script src="{{ 'jquery.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"></script> {% endcomment %}
 <script>
+  jQuery(document).ready(function(){
 jQuery("#carousel").owlCarousel({
   autoplay: true,
   lazyLoad: true,
@@ -78,6 +79,9 @@ jQuery("#carousel").owlCarousel({
       items: 5
     }
   }
+});
+jQuery( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+jQuery( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 });
 </script>
 {% schema %}
