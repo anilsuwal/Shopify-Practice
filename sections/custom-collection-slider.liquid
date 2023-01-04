@@ -5,9 +5,9 @@
 {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
 {{ 'custom-collection-slider.css' | asset_url | stylesheet_tag }}
 
-<noscript>{{ 'jquery.min.js' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'jquery.mousewheel.min.js' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'owl.carousel.min.js' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'jquery.min.js' | asset_url | script_tag }}</noscript>
+<noscript>{{ 'jquery.mousewheel.min.js' | asset_url | script_tag }}</noscript>
+<noscript>{{ 'owl.carousel.min.js' | asset_url | script_tag }}</noscript>
 
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
