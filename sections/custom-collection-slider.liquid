@@ -47,9 +47,12 @@
   <div class="item"><h4>12</h4></div>
 </div>
 
-<noscript>{{ 'jquery.min.js' | asset_url | script_tag }}</noscript>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+{% comment %} <noscript>{{ 'jquery.min.js' | asset_url | script_tag }}</noscript>
 <noscript>{{ 'jquery.mousewheel.min.js' | asset_url | script_tag }}</noscript>
-<noscript>{{ 'owl.carousel.min.js' | asset_url | script_tag }}</noscript>
+<noscript>{{ 'owl.carousel.min.js' | asset_url | script_tag }}</noscript> {% endcomment %}
 <script>
 jquery('.owl-carousel').owlCarousel({
   stagePadding: 50,
