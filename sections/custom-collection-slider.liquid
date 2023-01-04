@@ -37,7 +37,8 @@
       {% if product.available %}
         <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="item">
           {% render 'card-product',
-            card_product: product
+            card_product: product,
+            media_aspect_ratio: section.settings.image_ratio
           %}
         </li>
       {% endif %}
