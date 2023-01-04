@@ -4,7 +4,8 @@
       "type": "custom-collection-slider",
       "settings": {
         "heading_title": "Normal Heading",
-        "collection": "latest-product"
+        "collection": "latest-product",
+        "image_ratio": "portrait"
       }
     }
   },
