@@ -68,15 +68,15 @@
       autoplayHoverPause: true,
       responsive: {
         0: {
-          items: 1,
+          items: {{ section.settings.show_on_mobile }},
         },
 
         576: {
-          items: 3,
+          items: {{ section.settings.show_on_tablet }},
         },
 
         1024: {
-          items: {{ section.settings.display_on_desktop }},
+          items: {{ section.settings.show_on_desktop }},
         },
       },
     });
@@ -121,20 +121,38 @@
       "content": "Product Slider Settings"
     },
     {
-    "type": "range",
-    "id": "display_on_desktop",
-    "min": 2,
-    "max": 15,
-    "step": 1,
-    "label": "Display on Desktop",
-    "default": 5
-  },
-  {
-    "type": "checkbox",
-    "id": "enable_dots",
-    "label": "Enable dots",
-    "default": false
-  }
+      "type": "range",
+      "id": "show_on_desktop",
+      "min": 2,
+      "max": 15,
+      "step": 1,
+      "label": "Show on Desktop",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "show_on_tablet",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "label": "Show on tablet",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "show_on_mobile",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Show on Mobile",
+      "default": 1
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_dots",
+      "label": "Enable dots",
+      "default": false
+    }
   ],
   "presets": [
     {
