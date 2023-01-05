@@ -6,7 +6,8 @@
         "heading_title": "Normal Heading",
         "collection": "latest-product",
         "image_ratio": "adapt",
-        "display_on_desktop": 5
+        "display_on_desktop": 5,
+        "enable_dots": true
       }
     }
   },
