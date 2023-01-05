@@ -36,7 +36,7 @@
     <ul id="carousel" class="owl-carousel">
     {%- for product in section.settings.collection.products -%}
       {% if product.available %}
-        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="item" style="list-style:none;">
+        <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="item" style="list-style:none;" | limit: 20>
           {% render 'card-product',
             card_product: product,
             media_aspect_ratio: section.settings.image_ratio,
