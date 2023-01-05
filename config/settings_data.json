@@ -4,6 +4,7 @@
     "type_header_font": "poppins_n4",
     "type_body_font": "poppins_n4",
     "page_width": 1400,
+    "badge_position": "top left",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
