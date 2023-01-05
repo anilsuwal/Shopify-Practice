@@ -19,6 +19,6 @@
     transform: translate(-50%, -50%);
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
-    left: 0;
+    left: initial;
     right: -23px;
 }
