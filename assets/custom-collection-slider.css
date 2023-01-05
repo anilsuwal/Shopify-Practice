@@ -7,7 +7,7 @@
 .product-slider .card__inner.color-background-2 .card__media .media{
     height: 100%;
 }
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.owl-nav {
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.owl-nav, .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
     position: absolute;
     left: 20px;
     top: 50%;
@@ -19,13 +19,6 @@
     transform: translate(-50%, -50%);
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.owl-nav {
-    position: absolute;
+    left: 0;
     right: -23px;
-    top: 50%;
-    display: block ;
-    font-size: 3em ;
-    margin: 0;
-    cursor: pointer;
-    color: #000000;
-    transform: translate(-50%, -50%);
 }
