@@ -134,6 +134,12 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '' %}
+
+            {%- if show_button.checked -%}
+              <div class="add-to-cart-button">
+                <a href="">{{ 'show_button_name.value' }}</a>
+              </div>
+            {%- endif -%}
           </div>
         </div>
         <div class="card__badge {{ settings.badge_position }}">
