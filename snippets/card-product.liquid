@@ -137,7 +137,7 @@
 
             {%- if show_button != blank -%}
               <div class="add-to-cart-button">
-                <a href="">{{ show_button_name.value }}</a>
+                <a href="">{{ show_button_name.value | escape }}</a>
               </div>
             {%- endif -%}
           </div>
