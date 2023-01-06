@@ -134,6 +134,12 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '' %}
+
+            {%- if show_button != blank -%}
+              <div class="add-to-cart-button">
+                <a href="{{ card_product.url | default: '#' }}">{{ show_button_name }}</a>
+              </div>
+            {%- endif -%}
           </div>
         </div>
         <div class="card__badge {{ settings.badge_position }}">
