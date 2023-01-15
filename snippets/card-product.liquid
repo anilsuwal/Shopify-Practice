@@ -137,7 +137,7 @@
 
             {%- if show_button != blank -%}
               <div class="add-to-cart-button" style="background: {{ section.settings.button_background }}; text-align: {{ section.settings.button_alignment }}">
-                <a href="{{ card_product.url | default: '#' }}" style="color:{{ section.settings.button_color }}; font-weight: {{ section.settings.font_weight }}; text-transform: {{ section.settings.text_transform }}; padding: {{ section.settings.button_spacing }}px 2px; display: block;">{{ show_button_name }}</a>
+                <a href="{{ card_product.url | default: '#' }}" style="font-size: {{ section.settings.font_size }}; color:{{ section.settings.button_color }}; font-weight: {{ section.settings.font_weight }}; text-transform: {{ section.settings.text_transform }}; padding: {{ section.settings.button_spacing }}px 2px; display: block;">{{ show_button_name }}</a>
               </div>
             {%- endif -%}
           </div>
