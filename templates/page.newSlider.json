@@ -21,9 +21,16 @@
         "button_background": "linear-gradient(0deg, rgba(51, 79, 180, 1), rgba(57, 64, 180, 1) 100%, rgba(18, 18, 18, 1) 100%, rgba(255, 204, 75, 1) 100%)",
         "button_color": "#ffffff"
       }
+    },
+    "fa0c0b20-f112-492c-b1df-7f9f5c74d93e": {
+      "type": "custom-image-slider",
+      "settings": {
+        "heading_title": "Custom Image Slider (Logo Slider)"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fa0c0b20-f112-492c-b1df-7f9f5c74d93e"
   ]
 }
