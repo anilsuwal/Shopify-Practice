@@ -24,3 +24,6 @@
     left: initial;
     right: -23px;
 }
+.add-to-cart-button {
+    background: {{ section.settings.button_background }};
+}
