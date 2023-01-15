@@ -136,7 +136,7 @@
             {% render 'price', product: card_product, price_class: '' %}
 
             {%- if show_button != blank -%}
-              <div class="add-to-cart-button">
+              <div class="add-to-cart-button" style="background: {{ section.settings.button_background }}">
                 <a href="{{ card_product.url | default: '#' }}">{{ show_button_name }}</a>
               </div>
             {%- endif -%}
