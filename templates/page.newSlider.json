@@ -14,7 +14,7 @@
         "show_button": true,
         "show_button_name": "Add to cart",
         "button_alignment": "center",
-        "button_background": "linear-gradient(180deg, rgba(52, 52, 54, 1), rgba(0, 0, 0, 1) 100%)",
+        "button_background": "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
         "button_color": "#000000"
       }
     }
