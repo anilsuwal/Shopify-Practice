@@ -1,8 +1,20 @@
+<h5>{{ section.settings.heading_title | escape }}</h5>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{
+  "name": "Custom Image Slider",
+  "settings": [
+     {
+    "type": "text",
+    "label": "Heading",
+    "id": "heading_title"
   }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image Slider"
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
