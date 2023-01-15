@@ -14,7 +14,7 @@
         "show_button": true,
         "show_button_name": "Add to cart",
         "button_alignment": "center",
-        "text_transform": "uppercase",
+        "text_transform": "capitalize",
         "button_spacing": 10,
         "font_weight": 500,
         "button_background": "linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
