@@ -15,7 +15,7 @@
         "show_button_name": "Add to cart",
         "button_alignment": "center",
         "text_transform": "initial",
-        "button_spacing": 14,
+        "button_spacing": 10,
         "font_weight": 500,
         "button_background": "linear-gradient(0deg, rgba(51, 79, 180, 1), rgba(57, 64, 180, 1) 100%, rgba(18, 18, 18, 1) 100%, rgba(255, 204, 75, 1) 100%)",
         "button_color": "#ffffff"
