@@ -11,5 +11,6 @@
     overflow: hidden;
   }
   .image-slider ul li img {
-    object-fit: cover;
+    object-fit: contain;
+    max-height: 500px;
   }
