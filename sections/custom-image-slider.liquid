@@ -1,4 +1,9 @@
 <h4>{{ section.settings.heading_title | escape }}</h4>
+<ul>
+  <li><img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg" alt="" class="image-container" /></li>
+  <li><img src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="" class="image-container" /></li>
+</ul>
+
 {% schema %}
 {
   "name": "Custom Image Slider",
@@ -18,7 +23,27 @@
 {% endschema %}
 
 {% stylesheet %}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  margin: 10px;
+  list-style: none;
+  max-height: 500px;
+  height: 100%;
+  overflow: hidden;
+}
+ul li img {
+  object-fit: cover;
+}
 {% endstylesheet %}
 
 {% javascript %}
+$(".image-container").mouseover(function () {
+  $(this).attr('src', $(this).data("hover"));
+}).mouseout(function () {
+  $(this).attr('src', $(this).data("src"));
+});
 {% endjavascript %}
