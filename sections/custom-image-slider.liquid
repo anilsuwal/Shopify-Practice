@@ -5,8 +5,10 @@
 <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} image-slider">
 <h4>{{ section.settings.heading | escape }}</h4>
 <ul>
-  <li><img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg" alt="" class="image-container" /></li>
-  <li><img src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="" class="image-container" /></li>
+  {%- for block in section.blocks -%}
+    <li><img src="{{ blocks.settings.image }}" data-src="{{ blocks.settings.image }}" data-hover="{{ blocks.settings.hover_image }}" alt="" class="image-container" /></li>
+    <li><img src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="" class="image-container" /></li>
+  {%- endfor -%}
 </ul>
 </div>
 
