@@ -24,8 +24,22 @@
     },
     "fa0c0b20-f112-492c-b1df-7f9f5c74d93e": {
       "type": "custom-image-slider",
+      "blocks": {
+        "9c555aa2-824f-4574-b286-ce5ce5f02edf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hands-slice-red-pepper-on-wooden-cutting-board.jpg",
+            "hover_image": "shopify:\/\/shop_images\/two-red-cocktails-on-a-tray.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "9c555aa2-824f-4574-b286-ce5ce5f02edf"
+      ],
       "settings": {
-        "heading_title": "Custom Image Slider (Logo Slider)"
+        "heading": "Custom Logo Slider"
       }
     }
   },
