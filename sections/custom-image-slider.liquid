@@ -1,24 +1,76 @@
-<h4>{{ section.settings.heading_title | escape }}</h4>
+
+{{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+{{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+{{ 'custom-image-slider.css' | asset_url | stylesheet_tag }}
+<div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} image-slider">
+<h4>{{ section.settings.heading | escape }}</h4>
+<ul>
+  <li><img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg" alt="" class="image-container" /></li>
+  <li><img src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="" class="image-container" /></li>
+</ul>
+</div>
+
 {% schema %}
 {
   "name": "Custom Image Slider",
   "settings": [
      {
-    "type": "text",
-    "label": "Heading",
-    "id": "heading_title"
-  }
+      "type": "text",
+      "label": "Heading",
+      "id": "heading",
+      "default": "Image Slider Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Add Images",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Front Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "hover_image",
+          "label": "Hover Image"
+        },
+        {
+          "type": "text",
+          "id": "image_link",
+          "label": "Image URL"
+        },
+        {
+          "type": "checkbox",
+          "id": "new_tab",
+          "label": "Open in new tab!",
+          "default": false
+        }
+      ]
+    }
   ],
   "presets": [
     {
-      "name": "Custom Image Slider"
+      "name": "Custom Image Slider",
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
     }
   ]
 }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
 {% javascript %}
+$(".image-container").mouseover(function () {
+  $(this).attr('src', $(this).data("hover"));
+}).mouseout(function () {
+  $(this).attr('src', $(this).data("src"));
+})
 {% endjavascript %}
