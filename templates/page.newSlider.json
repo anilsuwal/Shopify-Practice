@@ -25,7 +25,7 @@
     "fa0c0b20-f112-492c-b1df-7f9f5c74d93e": {
       "type": "custom-image-slider",
       "settings": {
-        "heading_title": "Custom Image Slider (Logo Slider)"
+        "heading": "Custom Logo Slider"
       }
     }
   },
