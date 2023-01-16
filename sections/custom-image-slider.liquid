@@ -25,7 +25,6 @@
 {% endschema %}
 
 {% stylesheet %}
-<style>
 .image-slider ul {
   display: flex;
   justify-content: space-around;
@@ -41,15 +40,12 @@
 .image-slider ul li img {
   object-fit: cover;
 }
-</style>
 {% endstylesheet %}
 
 {% javascript %}
-<script>
 $(".image-container").mouseover(function () {
   $(this).attr('src', $(this).data("hover"));
 }).mouseout(function () {
   $(this).attr('src', $(this).data("src"));
-});
-</script>
+})
 {% endjavascript %}
