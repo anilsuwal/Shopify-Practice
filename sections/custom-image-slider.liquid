@@ -6,7 +6,7 @@
 <h4>{{ section.settings.heading | escape }}</h4>
 <ul>
   {%- for block in section.blocks -%}
-    <li><img src="{{ block.settings.image | img_url: 'master'}}" data-src="{{ blocks.settings.image }}" data-hover="{{ blocks.settings.hover_image }}" alt="" class="image-container" /></li>
+    <li><img src="{{ block.settings.image | asset_url }}" data-src="{{ blocks.settings.image }}" data-hover="{{ blocks.settings.hover_image }}" alt="" class="image-container" /></li>
     <li><img src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-src="https://cdn.pixabay.com/photo/2015/07/09/22/45/tree-838667_960_720.jpg" data-hover="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="" class="image-container" /></li>
   {%- endfor -%}
 </ul>
