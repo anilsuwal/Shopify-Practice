@@ -23,6 +23,7 @@
 {% endschema %}
 
 {% stylesheet %}
+<style>
 ul {
   display: flex;
   justify-content: space-around;
@@ -38,12 +39,15 @@ ul li {
 ul li img {
   object-fit: cover;
 }
+<style>
 {% endstylesheet %}
 
 {% javascript %}
+<script>
 $(".image-container").mouseover(function () {
   $(this).attr('src', $(this).data("hover"));
 }).mouseout(function () {
   $(this).attr('src', $(this).data("src"));
 });
+</script>
 {% endjavascript %}
