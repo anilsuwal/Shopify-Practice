@@ -12,7 +12,7 @@
   {%- endfor -%}
 </ul>
 </div>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 {% schema %}
 {
   "name": "Custom Image Slider",
@@ -71,7 +71,7 @@
 
 
 {% javascript %}
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 $(".image-container").mouseover(function () {
   $(this).attr('src', $(this).data("hover"));
 }).mouseout(function () {
