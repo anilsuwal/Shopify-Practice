@@ -42,11 +42,51 @@
             "image_link": "",
             "new_tab": false
           }
+        },
+        "08e572be-63a3-4eb8-a2da-3967bd191d5d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-holding-coffee-mug.jpg",
+            "hover_image": "shopify:\/\/shop_images\/pet-and-owner-on-fall-walk.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        },
+        "1573e7e4-d5ee-466c-b5e6-5d879b2c5326": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-hiking-in-mountains.jpg",
+            "hover_image": "shopify:\/\/shop_images\/biscotti-lays-in-a-monstera-leaf.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        },
+        "0506a674-f2e4-4224-85cf-6c947606f3a0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand-about-to-pour-stove-top-coffee.jpg",
+            "hover_image": "shopify:\/\/shop_images\/cafe-cup-on-wood-table.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        },
+        "125056dd-0412-4e68-a2dd-8e5e6059a98f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/designer-at-desk.jpg",
+            "hover_image": "shopify:\/\/shop_images\/stock-market-tracking-and-stocks.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
         }
       },
       "block_order": [
         "9c555aa2-824f-4574-b286-ce5ce5f02edf",
-        "73182622-8812-4564-ac3e-e74ac2d16c8d"
+        "73182622-8812-4564-ac3e-e74ac2d16c8d",
+        "08e572be-63a3-4eb8-a2da-3967bd191d5d",
+        "1573e7e4-d5ee-466c-b5e6-5d879b2c5326",
+        "0506a674-f2e4-4224-85cf-6c947606f3a0",
+        "125056dd-0412-4e68-a2dd-8e5e6059a98f"
       ],
       "settings": {
         "heading": "Custom Logo Slider"
