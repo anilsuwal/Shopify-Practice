@@ -8,7 +8,7 @@
 <h4>{{ section.settings.heading | escape }}</h4>
 
 
-<ul class="logo-image-slider">
+<ul data-slides="4" class="logo-image-slider">
   {%- for block in section.blocks -%}
     <li><img src="{{ block.settings.image | img_url: 'master' }}" data-src="{{ block.settings.image | img_url: 'master' }}" data-hover="{{ block.settings.hover_image | img_url: 'master' }}" alt="" class="image-container" /></li>
   {%- endfor -%}
