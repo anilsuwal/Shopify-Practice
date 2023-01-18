@@ -33,10 +33,20 @@
             "image_link": "",
             "new_tab": false
           }
+        },
+        "73182622-8812-4564-ac3e-e74ac2d16c8d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "hover_image": "shopify:\/\/shop_images\/retail-shopping-package.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
         }
       },
       "block_order": [
-        "9c555aa2-824f-4574-b286-ce5ce5f02edf"
+        "9c555aa2-824f-4574-b286-ce5ce5f02edf",
+        "73182622-8812-4564-ac3e-e74ac2d16c8d"
       ],
       "settings": {
         "heading": "Custom Logo Slider"
