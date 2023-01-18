@@ -114,6 +114,15 @@
             "image_link": "",
             "new_tab": false
           }
+        },
+        "47d5bfdd-376b-4071-b32d-62ba108ed752": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby-shoes.jpg",
+            "hover_image": "shopify:\/\/shop_images\/portrait-of-illuminated-laptop.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
         }
       },
       "block_order": [
@@ -126,7 +135,8 @@
         "2e644974-fcb9-489e-83e8-c138e0211a66",
         "907dbf05-9f8b-4600-b9cd-ce57341b6658",
         "d8d65cfe-7a95-49a3-92e1-7e399ea533a2",
-        "c3250ada-add7-4ac4-896e-6d689e987c14"
+        "c3250ada-add7-4ac4-896e-6d689e987c14",
+        "47d5bfdd-376b-4071-b32d-62ba108ed752"
       ],
       "settings": {
         "heading": "Custom Logo Slider"
