@@ -1,14 +1,15 @@
 .image-slider ul {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
   }
   
   .image-slider ul li {
-    margin: 10px;
+    /* margin: 10px; */
     list-style: none;
-    max-height: 500px;
+    /* max-height: 500px; */
     height: 100%;
     overflow: hidden;
+    float: left;
   }
   .image-slider ul li img {
     object-fit: contain;
