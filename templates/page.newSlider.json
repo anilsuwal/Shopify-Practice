@@ -78,6 +78,42 @@
             "image_link": "",
             "new_tab": false
           }
+        },
+        "2e644974-fcb9-489e-83e8-c138e0211a66": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/geometric-glass-city-architecture.jpg",
+            "hover_image": "shopify:\/\/shop_images\/the-eiffel-tower-paris.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        },
+        "907dbf05-9f8b-4600-b9cd-ce57341b6658": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coding-on-laptop.jpg",
+            "hover_image": "shopify:\/\/shop_images\/soccer-cleats-and-ball.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        },
+        "d8d65cfe-7a95-49a3-92e1-7e399ea533a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/holding-coffee-in-bed.jpg",
+            "hover_image": "shopify:\/\/shop_images\/bright-eyeshadow-makeup.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
+        },
+        "c3250ada-add7-4ac4-896e-6d689e987c14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wood-leather-watches.jpg",
+            "hover_image": "shopify:\/\/shop_images\/suit-and-tie.jpg",
+            "image_link": "",
+            "new_tab": false
+          }
         }
       },
       "block_order": [
@@ -86,7 +122,11 @@
         "08e572be-63a3-4eb8-a2da-3967bd191d5d",
         "1573e7e4-d5ee-466c-b5e6-5d879b2c5326",
         "0506a674-f2e4-4224-85cf-6c947606f3a0",
-        "125056dd-0412-4e68-a2dd-8e5e6059a98f"
+        "125056dd-0412-4e68-a2dd-8e5e6059a98f",
+        "2e644974-fcb9-489e-83e8-c138e0211a66",
+        "907dbf05-9f8b-4600-b9cd-ce57341b6658",
+        "d8d65cfe-7a95-49a3-92e1-7e399ea533a2",
+        "c3250ada-add7-4ac4-896e-6d689e987c14"
       ],
       "settings": {
         "heading": "Custom Logo Slider"
