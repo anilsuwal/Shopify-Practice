@@ -140,7 +140,10 @@ $(document).ready(function(){
     $(this).attr('src', $(this).data("src"));
   })
 
-  $('.logo-image-slider').slick();
+  $('.logo-image-slider').each(function(){
+    var num_slides = $(this).data('slides');
+    $(this).slick({slidesToShow:num_slides});
+  });
 });
 
 {% endjavascript %}
