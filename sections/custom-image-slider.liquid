@@ -6,8 +6,10 @@
 
 <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} image-slider">
 <h4>{{ section.settings.heading | escape }}</h4>
+
+{% assign product_limit = 8 %}
 <ul>
-  {%- for block in section.blocks -%}
+  {%- for block in section.blocks limit: product_limit -%}
     <li><img src="{{ block.settings.image | img_url: 'master' }}" data-src="{{ block.settings.image | img_url: 'master' }}" data-hover="{{ block.settings.hover_image | img_url: 'master' }}" alt="" class="image-container" /></li>
   {%- endfor -%}
 </ul>
