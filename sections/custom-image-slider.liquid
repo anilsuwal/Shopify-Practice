@@ -1,25 +1,31 @@
-
 {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
 {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
 {{ 'custom-image-slider.css' | asset_url | stylesheet_tag }}
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
 <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} image-slider">
-<h4>{{ section.settings.heading | escape }}</h4>
+  <h4>{{ section.settings.heading | escape }}</h4>
 
-
-<ul data-slides="{{ section.settings.no_items_desktop }}" class="logo-image-slider">
-  {%- for block in section.blocks -%}
-    <li><img src="{{ block.settings.image | img_url: 'master' }}" data-src="{{ block.settings.image | img_url: 'master' }}" data-hover="{{ block.settings.hover_image | img_url: 'master' }}" alt="" class="image-container" /></li>
-  {%- endfor -%}
-</ul>
+  <ul data-slides="{{ section.settings.no_items_desktop }}" class="logo-image-slider">
+    {%- for block in section.blocks -%}
+      <li>
+        <img
+          src="{{ block.settings.image | image_url: 'master' }}"
+          data-src="{{ block.settings.image | image_url: 'master' }}"
+          data-hover="{{ block.settings.hover_image | image_url: 'master' }}"
+          alt=""
+          class="image-container" loading="lazy"
+        >
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 {% schema %}
 {
   "name": "Custom Image Slider",
   "settings": [
-     {
+    {
       "type": "text",
       "label": "Heading",
       "id": "heading",
@@ -93,8 +99,7 @@
       "step": 1,
       "label": "Display no. of Items In Desktop",
       "default": 5
-    }
-    ,
+    },
     {
       "type": "range",
       "id": "no_items_tablet",
@@ -159,21 +164,21 @@
 }
 {% endschema %}
 
-
 {% javascript %}
-$(document).ready(function(){
-  $(".image-container").mouseover(function () {
-    $(this).attr('src', $(this).data("hover"));
-  }).mouseout(function () {
-    $(this).attr('src', $(this).data("src"));
-  })
+  $(document).ready(function () {
+    $('.image-container')
+      .mouseover(function () {
+        $(this).attr('src', $(this).data('hover'));
+      })
+      .mouseout(function () {
+        $(this).attr('src', $(this).data('src'));
+      });
 
-  $('.logo-image-slider').each(function(){
-    var num_slides = $(this).data('slides');
+    $('.logo-image-slider').each(function () {
+      var num_slides = $(this).data('slides');
 
-    console.log("num_slides");
-    $(this).slick({slidesToShow:num_slides});
+      console.log('num_slides');
+      $(this).slick({ slidesToShow: num_slides });
+    });
   });
-});
-
 {% endjavascript %}
