@@ -139,7 +139,12 @@
         "47d5bfdd-376b-4071-b32d-62ba108ed752"
       ],
       "settings": {
-        "heading": "Custom Logo Slider"
+        "heading": "Custom Logo Slider",
+        "heading_tag": "div",
+        "text_alignment": "left",
+        "no_items_desktop": 4,
+        "no_items_tablet": 3,
+        "no_items_mobile": 1
       }
     }
   },
