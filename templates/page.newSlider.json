@@ -142,7 +142,7 @@
         "heading": "Custom Logo Slider",
         "heading_tag": "div",
         "text_alignment": "left",
-        "no_items_desktop": 4,
+        "no_items_desktop": 5,
         "no_items_tablet": 3,
         "no_items_mobile": 1
       }
